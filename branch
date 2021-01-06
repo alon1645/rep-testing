@@ -1,0 +1,7 @@
+echo "# rep-testing" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M testing
+git remote add origin https://github.com/alon1645/rep-testing.git
+git push -u origin main
